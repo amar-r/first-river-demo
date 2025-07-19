@@ -62,12 +62,12 @@ npm run dev
 For testing the protected content:
 
 - **Resident Access**: 
-  - Username: `amar`
-  - Password: `Doing HOA stuff.`
+  - Username: `resident`
+  - Password: `HOA2024!`
 
 - **Admin Access**:
   - Username: `admin`
-  - Password: `Doing HOA stuff.`
+  - Password: `HOA2024!`
 
 ## Project Structure
 

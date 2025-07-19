@@ -270,9 +270,9 @@ export const neighborhoodWatch = {
 export const mockUsers = [
   {
     id: 1,
-    username: "amar",
-    email: "amar@example.com",
-    name: "Amar Resident",
+    username: "resident",
+    email: "resident@example.com",
+    name: "John Resident",
     address: "123 First River Lane",
     isApproved: true,
     role: "resident"

@@ -100,8 +100,8 @@ const Login = () => {
         <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
           <h3 className="text-sm font-medium text-gray-900 mb-2">Demo Credentials</h3>
           <div className="text-xs text-gray-600 space-y-1">
-            <p><strong>Resident:</strong> amar / Doing HOA stuff.</p>
-            <p><strong>Admin:</strong> admin / Doing HOA stuff.</p>
+                    <p><strong>Resident:</strong> resident / HOA2024!</p>
+        <p><strong>Admin:</strong> admin / HOA2024!</p>
           </div>
         </div>
       </div>

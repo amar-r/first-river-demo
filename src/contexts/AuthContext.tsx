@@ -60,7 +60,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     // Mock authentication - in real app, this would be an API call
     const foundUser = mockUsers.find(u => u.username === username);
     
-    if (foundUser && password === 'Doing HOA stuff.') {
+            if (foundUser && password === 'HOA2024!') {
       const userWithCorrectRole: User = {
         ...foundUser,
         role: foundUser.role as 'resident' | 'admin'
