@@ -1,0 +1,50 @@
+I want to rebuild https://firstriverfarms.com as a modern React site with a secure login system and approval-based registration flow.
+
+This site will have two parts:
+1. A **public marketing site** about the farm (hero, about, what we raise, contact)
+2. A **private members-only area** accessible after login, with registration gated behind manual approval
+
+### Tech Stack:
+- Frontend: React + Tailwind CSS
+- Backend: Node.js with Express (or Firebase/Auth0 if faster)
+- Auth: Email + password auth with admin-controlled approvals
+- Data storage: JSON, SQLite, or Firebase — whichever is simplest to scaffold
+
+### Public Content:
+1. **Hero section** — Welcome, background image, tagline, CTA
+2. **About section** — Description of First River Farms, mission, family-owned background
+3. **What We Raise** — Grid/list of livestock (e.g. cattle, pigs, chickens)
+4. **Contact section** — Email, optional contact form
+5. **Footer** — Basic contact/social
+
+### Authentication & Gated Content:
+- **Register page**
+  - Includes name, email, and short note
+  - Submissions are stored as “pending”
+  - Admin can approve or reject requests (basic UI or backend flag)
+- **Login page**
+  - Email + password auth
+  - Only approved users can log in
+- **Members-only area**
+  - Simple protected route
+  - Placeholder for private content like order forms, price lists, newsletters, etc.
+
+### Requirements:
+- All styling should use Tailwind CSS
+- All routing should use React Router
+- User auth state should persist with cookies or localStorage
+- Protect private routes (don't render if not logged in)
+- Provide a basic “admin approval” mechanism (can be hardcoded if needed)
+
+### Optional:
+- Framer Motion animations
+- Dark mode toggle
+- Email notification on new user registration (placeholder)
+
+Please scaffold the full project:
+- Frontend with React components for public and private views
+- Simple backend (Express or Firebase) to store approved users and handle login/register
+- Auth logic to protect routes
+
+Make the experience feel trustworthy, rural, and personal — no corporate UI.
+
